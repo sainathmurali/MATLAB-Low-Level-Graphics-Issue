@@ -1,7 +1,6 @@
 # MATLAB-Low-Level-Graphics-Issue in Linux
 
 ### To run MATLAB with Hardware Renderer
-First, check if your graphics card is properly recognised by the OS.
 
 First, install a few related packages
 
