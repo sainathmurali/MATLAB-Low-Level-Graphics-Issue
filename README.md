@@ -4,8 +4,8 @@
 
 First, disable Wayland if enabled.
 Steps to disable Wayland:
-..* Open Wayland config file from /etc/gdm3/custom.conf (or /etc/gdm/custom.conf) with elevated permissions.
-..* Uncomment the line #WaylandEnable=false.
+* Open Wayland config file from /etc/gdm3/custom.conf (or /etc/gdm/custom.conf) with elevated permissions.
+* Uncomment the line #WaylandEnable=false.
 
 
 Then, install a few graphics-related packages
