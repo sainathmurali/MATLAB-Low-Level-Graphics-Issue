@@ -12,8 +12,8 @@ Steps to disable Wayland:
 sudo systemctl restart gdm3
 ```
 
-Then, install a few graphics-related packages
-
+Install a few graphics-related packages. Change the apt-get for your distro's package manager.
+For Ubuntu,
 ```
 sudo apt-get install lib64stdc++6:i386
 sudo apt-get install mesa-utils
