@@ -18,7 +18,7 @@ Then, install a few graphics-related packages
 sudo apt-get install lib64stdc++6:i386
 sudo apt-get install mesa-utils
 ```
-Then update some links:
+Then update some links (replace <matlab_installed_location> with the installation location of matlab; for example: <b>/usr/local/MATLAB/R20xxx</b>):
 
 ```
 cd <matlab_installed_location>/sys/os/glnxa64/
@@ -27,10 +27,14 @@ sudo ln -s /usr/lib64/libstdc++.so.6  libstdc++.so.6
 ```
 
 Then try one of the following 2 methods:
-1)  Launch MATLAB with the following command in terminal	
-export JAVA_TOOL_OPTIONS="-Djogl.disable.openglarbcontext=1"; matlab
+1)  Launch MATLAB with the following command in terminal
 
-2)	Find matlab.desktop file; which can be found under /usr/share/applications/ (OR  /usr/local/share/applications/)
+```
+export JAVA_TOOL_OPTIONS="-Djogl.disable.openglarbcontext=1"; matlab
+```
+
+
+3)	Find matlab.desktop file; which can be found under /usr/share/applications/ (OR  /usr/local/share/applications/)
 Inside the file, replace the line **Exec=........** with the following.
 
 ```
