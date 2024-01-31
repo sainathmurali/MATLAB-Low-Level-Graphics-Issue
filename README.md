@@ -26,7 +26,7 @@ sudo mv libstdc++.so.6 libstdc++.so.6.bak
 sudo ln -s /usr/lib64/libstdc++.so.6  libstdc++.so.6
 ```
 
-Then try one of the following 2 methods:
+Then try one of the following 2 methods (if either of them not working properly, do both):
 1)  Launch MATLAB with the following command in terminal
 
 ```
