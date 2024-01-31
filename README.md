@@ -6,7 +6,11 @@ First, disable Wayland if enabled.
 Steps to disable Wayland:
 * Open Wayland config file from /etc/gdm3/custom.conf (or /etc/gdm/custom.conf) with elevated permissions.
 * Uncomment the line #WaylandEnable=false.
+* Run the following command to restart gnome display manager
 
+```
+sudo systemctl restart gdm3
+```
 
 Then, install a few graphics-related packages
 
